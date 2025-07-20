@@ -1,0 +1,30 @@
+{
+  "name": "foodiary-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sls offline start --reloadHandler"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marioalvesx/foodiary-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/marioalvesx/foodiary-api/issues"
+  },
+  "homepage": "https://github.com/marioalvesx/foodiary-api#readme",
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.152",
+    "@types/node": "^24.0.15",
+    "serverless-offline": "^14.4.0",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "zod": "^4.0.5"
+  }
+}
